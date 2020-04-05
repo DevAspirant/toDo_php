@@ -6,7 +6,7 @@ html, body, div, h1, ul, li, input, a, span, p {
 
 body {
     direction: rtl;
-    background-color: grey;
+    background-color: #eceff0;
 }
 
 .container {
@@ -16,5 +16,8 @@ body {
     margin: 20px auto;
     padding: 20px;
     box-sizing: border-box;
+}
 
+.container .header {
+    margin-bottom:10px;
 }
