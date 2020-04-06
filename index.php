@@ -12,15 +12,15 @@
 <h1> مهماتي </h1>
 <ul class="tasks">
     <li>
-    <span class="tasks"> وصف المهمة </span>
+    <span class="task"> وصف المهمة </span>
     <a class="done-button" href="#"> تم الانجاز</a>
     <p class="date"> 6 - 4 - 2020 اخر تاريخ لانجاز المهمة</p>
     </li>
 </ul>
 <!-- Form -->
-<form class="task-add">
-    <input class="input" type="text" placeholder="ادخل وصف مهمة جديدة">
-    <input class="input" type="text" placeholder="ادخل تاريخ اخر انجاز">
+<form class="task-add" action="app/add.php" method="POST">
+    <input class="input" type="text" placeholder="ادخل وصف مهمة جديدة" name="task_name">
+    <input class="input" type="text" placeholder="ادخل تاريخ اخر انجاز" name="due_task">
     <input class="submit" type="submit" value="آضف">
 </form> 
 </div>
