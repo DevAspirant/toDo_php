@@ -12,7 +12,7 @@
 <h1> مهماتي </h1>
 <ul class="tasks">
     <li>
-    <span class="task"> وصف المهمة </span>
+    <span class="tasks"> وصف المهمة </span>
     <a class="done-button" href="#"> تم الانجاز</a>
     <p class="date"> 6 - 4 - 2020 اخر تاريخ لانجاز المهمة</p>
     </li>

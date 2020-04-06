@@ -21,3 +21,32 @@ body {
 .container .header {
     margin-bottom:10px;
 }
+
+.container .header{
+    margin-bottom: 10px;
+}
+
+.tasks {
+    list-style-type: none;
+}
+
+.tasks li{
+    border-bottom: 1px dashed #ccc;
+    padding: 15px 0;
+}
+
+.task .done{
+    text-decoration: line-through;
+}
+
+.task 
+
+.tasks .date {
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+.tasks .done-button {
+    text-decoration: none;
+    background-color: ;
+}
