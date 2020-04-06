@@ -9,10 +9,10 @@
 <body>
 <div class="container">
 <div class="header">
-<h1> مهماتي </h1>
+<h1> مهمتي </h1>
 <ul class="tasks">
     <li>
-    <span class="tasks"> وصف المهمة </span>
+    <span class="task"> وصف المهمة </span>
     <a class="done-button" href="#"> تم الانجاز</a>
     <p class="date"> 6 - 4 - 2020 اخر تاريخ لانجاز المهمة</p>
     </li>

@@ -30,7 +30,7 @@ body {
     list-style-type: none;
 }
 
-.tasks li{
+.tasks li, .task-add .input{
     border-bottom: 1px dashed #ccc;
     padding: 15px 0;
 }
@@ -39,7 +39,6 @@ body {
     text-decoration: line-through;
 }
 
-.task 
 
 .tasks .date {
     margin-top: 7px;
@@ -48,5 +47,17 @@ body {
 
 .tasks .done-button {
     text-decoration: none;
-    background-color: ;
+    background-color: #d9dfe1;
+    color: #363639;
+    border-bottom: 1px dashed;
+    padding: 3px 6px;
+    opacity: .4;
+}
+
+.task-add .input{
+    width: 100%;
+}
+
+.task-add .input:focus {
+    outline: none;
 }
