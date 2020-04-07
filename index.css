@@ -27,7 +27,11 @@ body {
     list-style-type: none;
 }
 
+<<<<<<< HEAD
 .tasks li, .add-task, .input {
+=======
+.tasks li, .task-add .input{
+>>>>>>> 5a3ce4acf0c102bb12c22c838aff905a4850f2c0
     border-bottom: 1px dashed #ccc;
     padding: 15px 0;
 }
@@ -51,12 +55,17 @@ body {
     opacity: .4;
 }
 
+<<<<<<< HEAD
 .task-add .input {
+=======
+.task-add .input{
+>>>>>>> 5a3ce4acf0c102bb12c22c838aff905a4850f2c0
     width: 100%;
 }
 
 .task-add .input:focus {
     outline: none;
+<<<<<<< HEAD
 }
 
 .task-add .submit {
@@ -66,4 +75,6 @@ body {
     padding: 5px 10px;
     border: 1px solid #ddd;
     box-shadow: 3px 3px 0 #ddd;
+=======
+>>>>>>> 5a3ce4acf0c102bb12c22c838aff905a4850f2c0
 }

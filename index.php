@@ -9,7 +9,7 @@
 <body>
 <div class="container">
 <div class="header">
-<h1> مهماتي </h1>
+<h1> مهمتي </h1>
 <ul class="tasks">
     <li>
     <span class="task"> وصف المهمة </span>
